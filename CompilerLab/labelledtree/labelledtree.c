@@ -58,7 +58,7 @@ void findleafnodelabel(node *tree,int val)
 if(tree->left != NULL && tree->right !=NULL)
 {
 findleafnodelabel(tree->left,1);
-findleafnodelabel(tree->right,0);
+findleafnodelabel(tree->right,1);
 }
 
 else
